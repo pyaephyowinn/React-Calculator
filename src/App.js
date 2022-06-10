@@ -6,7 +6,7 @@ function App() {
     //comments added
     <div className="App">
       <div className="header">
-        <h1>Calculator</h1>
+        <h1>Calculator App</h1>
       </div>
 
       <div className="container">
