@@ -43,6 +43,6 @@
   width: 2rem;
 }
 
-.btnEqual {
+.btnEqual, .btnAC {
   grid-column: auto / span 2;
 }

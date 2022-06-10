@@ -45,11 +45,10 @@ const Calculator = () => {
       </div>
 
       <div className={classes.grid}>
-        <div onClick={clickAcHandler}>AC</div>
+        <div className={classes.btnAC} onClick={clickAcHandler}>AC</div>
         <div onClick={removeHandler} className={classes.btnClear}>
           <img src={imgClear} alt="clear" />
         </div>
-        <div onClick={clickBtnHandler.bind(null, "%")}>%</div>
         <div onClick={clickBtnHandler.bind(null, "/")}>÷</div>
 
         <div onClick={clickBtnHandler.bind(null, 7)}>7</div>
