@@ -3,6 +3,7 @@ import Calculator from "./components/Calculator";
 
 function App() {
   return (
+    //comments added
     <div className="App">
       <div className="header">
         <h1>Calculator</h1>
